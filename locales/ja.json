@@ -2,7 +2,7 @@
   "intro": {
     "welcome": "ようこそ、 {{username}}!",
     "text": "お役に立てれば嬉しいです",
-    "description": "SSGとSSRに最適化されたページの言語を変更する方法の例です。"
+    "description": "これは、SSG / SSRに最適化されたページの言語を変更する方法の例です。"
   },
   "dashboard": {
     "description": "これは、クライアント側のみで言語を変更する方法の例です。ダッシュボードはSEOを必要としないので便利です。"
