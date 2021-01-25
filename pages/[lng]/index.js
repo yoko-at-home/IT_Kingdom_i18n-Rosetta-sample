@@ -11,16 +11,24 @@ const HomePage = () => {
     <div>
       <Head>
         <meta
-          httpEquiv="content-language"
+          httpEquiv='content-language'
           content={contentLanguageMap[i18n.activeLocale]}
         />
       </Head>
-      <Title username="Peter" />
+      <Title username='Peter' />
       <h2>{i18n.t('intro.text')}</h2>
       <h3>{i18n.t('intro.description')}</h3>
       <div>Current locale: {i18n.activeLocale}</div>
-      <Link href="/[lng]" as="/de">
+      <Link href='/[lng]' as='/de'>
         <a>Use client-side routing to change language to 'de'</a>
+      </Link>
+      <div>Current locale: {i18n.activeLocale}</div>
+      <Link href='/[lng]' as='/en'>
+        <a>Use client-side routing to change language to 'en'</a>
+      </Link>
+      <div>Current locale: {i18n.activeLocale}</div>
+      <Link href='/[lng]' as='/ja'>
+        <a>クライアントサイドルーティングを使用して、言語を'ja(日本語)'に切り替える</a>
       </Link>
     </div>
   )
